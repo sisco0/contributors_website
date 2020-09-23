@@ -7,6 +7,8 @@ import JoinUsComponent from './joinUsComponent.js';
 import ProcessCards from './processCards.js';
 import FirstTimersOnlyIssue from './firstTimersOnlyIssue.js';
 import GetContributors from './contributors.js';
+import FooterComponent from './footerComponent.js';
+import OssComponent from './ossComponent.js';
 
 function App() {
   return (
@@ -14,9 +16,11 @@ function App() {
       <NavTabs/>
       <MainComponent/>
       <JoinUsComponent/>
+      <OssComponent/>
       <ProcessCards/>
       <FirstTimersOnlyIssue/>
       <GetContributors/>
+      <FooterComponent/>
     </div>
   );
 }
