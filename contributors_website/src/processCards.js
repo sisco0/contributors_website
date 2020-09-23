@@ -58,9 +58,6 @@ export default function ProcessCards() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
           Learn More
         </Button>
       </CardActions>
@@ -80,14 +77,11 @@ export default function ProcessCards() {
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             Now that you have made your first contribution, it is time to help other contributors to start their journey too.
-            Answer their queries on Slack, review their pull requests and most importantly make them feel Welcomed.
+            Answer their queries on Slack or review their pull requests.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
         <Button size="small" color="primary">
           Learn More
         </Button>
@@ -114,9 +108,6 @@ export default function ProcessCards() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
           Learn More
         </Button>
       </CardActions>
@@ -125,3 +116,4 @@ export default function ProcessCards() {
     </Grid>
   );
 }
+
