@@ -29,14 +29,19 @@ const GetContributors = () => {
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
+       let mounted = true;
        setLoading(true)
-       fetch("https://api.github.com/repos/moja-global/FLINT/contributors").then(res => res.json()).then(
+       fetch("https://api.github.com/repos/moja-global/FLINT/contributors",
+       {headers: { 'Authorization': 'Bearer '+process.env.REACT_APP_GITHUB_PERSONAL_ACCESS_TOKEN,}})
+       .then(res => res.json()).then(
            res => {
+             if(mounted && contributors.length == 0){
                setContributors(res);
                setLoading(false)
-             console.log(contributors);}
+             console.log(contributors);}}
        ).catch(err => {
            setLoading(false)})
+      return () => mounted = false;
    }, [contributors])
 
    return (

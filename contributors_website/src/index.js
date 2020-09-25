@@ -5,14 +5,13 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from '@apollo/react-hooks';
-import './config.env';
 
 const client = new ApolloClient({
   uri: 'https://api.github.com/graphql',
   request: operation => {
     operation.setContext({
       headers: {
-        authorization: `Bearer c2e9eb2092ca8567fa6bec4ea410481695b031fb`,
+        authorization: `Bearer ${process.env.REACT_APP_GITHUB_PERSONAL_ACCESS_TOKEN}`,
       },
     });
   },
