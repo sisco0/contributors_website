@@ -62,7 +62,7 @@ export default function JoinUsComponent() {
   }
 
   return (
-    <div className={classes.root}>
+    <div id="joinUsComponent" className={classes.root}>
       <Grid container>
       <Grid item xs={12} md={6}>
         <Image

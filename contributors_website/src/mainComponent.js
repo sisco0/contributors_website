@@ -4,6 +4,7 @@ import {Paper,Grid,Button} from '@material-ui/core';
 import Env from './images/environment.jpg';
 import Image from 'material-ui-image';
 import CustomButton from './CustomComponents/CustomButton';
+import Link from '@material-ui/core/Link';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -30,7 +31,9 @@ export default function MainComponent() {
         <h1>Moja Global Developer Community</h1>
         <p> Welcome to Moja Global Developer Community! If you are new to the Community, you have come to the right place </p>
         <CustomButton variant="contained" color="primary" disableElevation>
-        Get Started
+        <Link color='inherit' underline='none' href="#joinUsComponent">
+          Get Started
+        </Link>
         </CustomButton>
         </div>
         </Grid>

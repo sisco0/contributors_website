@@ -4,6 +4,7 @@ import {Paper,Grid,Button} from '@material-ui/core';
 import CustomButton from './CustomComponents/CustomButton';
 import Oss from './images/oss.png';
 import Image from 'material-ui-image';
+import Link from '@material-ui/core/Link';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -29,9 +30,11 @@ export default function OssComponent() {
         <div className={classes.textDiv}>
         <h1>Open Source Programs!</h1>
         <p> moja global routinely participates in Open Source Programs like the Google Summer Of Code, Google Season Of Docs and  Linux Mentorship programs etc.
-        To know more about our selection process, click <a href="https://moja-global-documentation.readthedocs.io/en/latest/contact.html#outreach-and-student-programs">here</a></p>
+        To know more about our selection process</p>
         <CustomButton variant="contained" color="primary" disableElevation>
-        Get Started
+        <Link color='inherit' underline='none' href="https://moja-global-documentation.readthedocs.io/en/latest/contact.html#outreach-and-student-programs">
+          Click Here
+        </Link>
         </CustomButton>
         </div>
         </Grid>
