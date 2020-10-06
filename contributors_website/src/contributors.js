@@ -36,7 +36,7 @@ const GetContributors = () => {
        .then(res => res.json()).then(
            res => {
              if(mounted && contributors.length == 0){
-               setContributors(res);
+               setContributors(res.reverse().slice(0,8));
                setLoading(false)
              console.log(contributors);}}
        ).catch(err => {
@@ -48,13 +48,13 @@ const GetContributors = () => {
      <div className={classes.root}>
      <Grid container>
      <Grid xs={12}>
-     <h1> All Contributors List</h1>
+     <h1> New Contributors List</h1>
      <p> Contribute to Moja Global and get featured in this list!</p>
      </Grid>
      </Grid>
        <GridList cellHeight={160} className={classes.gridList} cols={4}>
          <GridListTile key="Subheader" cols={4} style={{ height: 'auto' }}>
-           <ListSubheader component="div">All contributors</ListSubheader>
+           <ListSubheader component="div">New contributors</ListSubheader>
          </GridListTile>
 
                {contributors.map( contributor =>  (
