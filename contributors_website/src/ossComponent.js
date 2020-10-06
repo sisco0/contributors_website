@@ -29,7 +29,7 @@ export default function OssComponent() {
         <Grid item xs={12} md={6}>
         <div className={classes.textDiv}>
         <h1>Open Source Programs!</h1>
-        <p> moja global routinely participates in Open Source Programs like the Google Summer Of Code, Google Season Of Docs and  Linux Mentorship programs etc.
+        <p> moja global routinely participates in Open Source Programs like the Google Summer Of Code, Google Season Of Docs and  Linux Mentorship programs etc. As a contributor, you may also suggest other programs for moja global to participate in. If we are eligible, we will definitely consider to apply for these programs to support you.
         To know more about our selection process</p>
         <CustomButton variant="contained" color="primary" disableElevation>
         <Link color='inherit' underline='none' href="https://moja-global-documentation.readthedocs.io/en/latest/contact.html#outreach-and-student-programs">
