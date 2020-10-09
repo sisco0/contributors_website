@@ -5,6 +5,7 @@ import CustomButton from './CustomComponents/CustomButton'
 import Help from './images/help_others.png'
 import Issue from './images/solve_issue.jpg'
 import Team from './images/teamwork.jpg'
+import Link from '@material-ui/core/Link';
 
 const CustomCard = withStyles({
   root: {
@@ -58,7 +59,9 @@ export default function ProcessCards() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
+        <Link color='inherit' underline='none' href="https://moja-global-documentation.readthedocs.io/en/latest/DevelopmentSetup/git_and_github_guide.html#claim-an-issue">
           Learn More
+        </Link>
         </Button>
       </CardActions>
     </CustomCard>
@@ -83,7 +86,9 @@ export default function ProcessCards() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
+        <Link color='inherit' underline='none' href="https://moja-global-documentation.readthedocs.io/en/latest/contributing/after_contribute.html#help-other-contributors-take-their-first-step">
           Learn More
+        </Link>
         </Button>
       </CardActions>
     </CustomCard>
@@ -108,7 +113,9 @@ export default function ProcessCards() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
+        <Link color='inherit' underline='none' href="https://moja-global-documentation.readthedocs.io/en/latest/contributing/after_contribute.html#create-beginner-friendly-issues">
           Learn More
+        </Link>
         </Button>
       </CardActions>
     </CustomCard>
@@ -116,4 +123,3 @@ export default function ProcessCards() {
     </Grid>
   );
 }
-
