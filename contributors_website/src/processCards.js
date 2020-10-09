@@ -51,8 +51,8 @@ export default function ProcessCards() {
             Take up a first-timers-only issue
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            First-timers-only issues are designed to help new contributors to contribute to the Codebase.
-            You can find them under issues in Github labelled as first-timers-only.
+            Beginner-friendly issues are designed to help new contributors to contribute to the Codebase.
+            You can find them under issues in Github labelled as good first issue.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -98,10 +98,10 @@ export default function ProcessCards() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Create a first-timers-only issue for someone else!
+            Create a Beginner-friendly issue for someone else!
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Using our first-timers-only issue template, create a welcoming issue for others.
+            Using our Beginner-friendly issue template, create a welcoming issue for others.
             We need more helping hands on our journey to help the environment!
           </Typography>
         </CardContent>
