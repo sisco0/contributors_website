@@ -1,9 +1,9 @@
 import React from 'react';
 import { makeStyles,withStyles } from '@material-ui/core/styles';
 import {Paper,Grid,Button} from '@material-ui/core';
-import Env from './images/environment.jpg';
+import Env from '../images/environment.jpg';
 import Image from 'material-ui-image';
-import CustomButton from './CustomComponents/CustomButton';
+import CustomButton from './CustomButton';
 import Link from '@material-ui/core/Link';
 
 

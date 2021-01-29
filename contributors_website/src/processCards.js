@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles,withStyles } from '@material-ui/core/styles';
 import {Card,CardActionArea,CardActions,CardContent,CardMedia,Button,Typography,Grid} from '@material-ui/core';
-import CustomButton from './CustomComponents/CustomButton'
+import CustomButton from './components/CustomButton'
 import Help from './images/help_others.png'
 import Issue from './images/solve_issue.jpg'
 import Team from './images/teamwork.jpg'
