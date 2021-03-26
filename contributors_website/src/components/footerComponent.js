@@ -6,7 +6,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import CustomButton from './CustomComponents/CustomButton';
+import CustomButton from './CustomButton';
 import Image from 'material-ui-image';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';

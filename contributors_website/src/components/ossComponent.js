@@ -1,8 +1,8 @@
 import React from 'react';
 import { makeStyles,withStyles } from '@material-ui/core/styles';
 import {Paper,Grid,Button} from '@material-ui/core';
-import CustomButton from './CustomComponents/CustomButton';
-import Oss from './images/oss.png';
+import CustomButton from './CustomButton';
+import Oss from '../images/oss.png';
 import Image from 'material-ui-image';
 import Link from '@material-ui/core/Link';
 

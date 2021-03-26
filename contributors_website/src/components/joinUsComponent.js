@@ -1,8 +1,8 @@
 import React,{useState} from 'react';
 import { makeStyles,withStyles } from '@material-ui/core/styles';
 import {Paper,Grid,Button} from '@material-ui/core';
-import CustomButton from './CustomComponents/CustomButton';
-import Join from './images/join.jpg';
+import CustomButton from './CustomButton';
+import Join from '../images/join.jpg';
 import Image from 'material-ui-image';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';

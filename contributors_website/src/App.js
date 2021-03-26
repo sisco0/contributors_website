@@ -1,14 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import NavTabs from './navbar.js';
-import MainComponent from './mainComponent.js';
-import JoinUsComponent from './joinUsComponent.js';
+import NavTabs from './components/navbar.js';
+import MainComponent from './components/mainComponent.js';
+import JoinUsComponent from './components/joinUsComponent.js';
 import ProcessCards from './processCards.js';
-import FirstTimersOnlyIssue from './firstTimersOnlyIssue.js';
-import GetContributors from './contributors.js';
-import FooterComponent from './footerComponent.js';
-import OssComponent from './ossComponent.js';
+import FirstTimersOnlyIssue from './components/firstTimersOnlyIssue.js';
+import GetContributors from './components/contributors.js';
+import FooterComponent from './components/footerComponent.js';
+import OssComponent from './components/ossComponent.js';
 
 function App() {
   return (
